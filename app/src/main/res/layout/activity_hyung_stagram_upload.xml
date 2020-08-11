@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".HyungStagramUploadActivity">
+
+    <EditText
+        android:id="@+id/content_input"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:hint="내용을 작성해주세요" />
+
+    <TextView
+        android:layout_margin="16dp"
+        android:id="@+id/view_pictures"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="16dp"
+        android:background="#A6A6A6"
+        android:gravity="center"
+        android:text="사진 선택"
+        android:textColor="#ffffff"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_margin="16dp"
+        android:id="@+id/upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_pictures"
+        android:background="#A6A6A6"
+        android:gravity="center"
+        android:text="업로드"
+        android:textColor="#ffffff"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/l_all_list"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#D3D3D3"
+            android:gravity="center"
+            android:text="전체"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/l_my_list1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#D3D3D3"
+            android:gravity="center"
+            android:text="본인"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/l_upload"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#D3D3D3"
+            android:gravity="center"
+            android:text="업로드"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/l_user_info"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#D3D3D3"
+            android:gravity="center"
+            android:text="정보"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
