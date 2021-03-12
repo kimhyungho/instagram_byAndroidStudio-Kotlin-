@@ -25,8 +25,4 @@
 
 <a href="https://square.github.io/retrofit/">retrofit2</a>
 
-# Used Image
-<a href="https://pixabay.com/ko/">pixabay</a>
-
-
 # App Image
