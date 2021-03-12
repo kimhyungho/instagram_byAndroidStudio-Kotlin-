@@ -1,4 +1,4 @@
-# CabbageMarket
+# FastCampusInstaClone
 <p align="center">
   <img width="100" height="100" src="https://github.com/kimhyungho/ANDROID-FastCampusInstaClone/blob/master/insta_logo.png">
 </p>
