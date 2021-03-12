@@ -1,9 +1,9 @@
 # CabbageMarket
 <p align="center">
-  <img width="100" height="100" src="https://github.com/kimhyungho/ANDROID-CabbageMarket/blob/master/app_logo.png">
+  <img width="100" height="100" src="https://github.com/kimhyungho/ANDROID-FastCampusInstaClone/blob/master/insta_logo.png">
 </p>
 <p align="center">
-  <b>배추마켓</b>
+  <b>패스트캠퍼스 - 인스타 클론 </b>
   </br>
   인스타그램 클론 프로젝트
   </br>
